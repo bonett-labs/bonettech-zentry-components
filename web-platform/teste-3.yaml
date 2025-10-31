@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste-3
+  description: Teste
+  annotations:
+    github.com/project-slug: bonett-labs/teste-3
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/vp-technology
+  system: system:default/web-platform
