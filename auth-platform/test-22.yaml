@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-22
+  description: dkdkdkdd
+  annotations:
+    github.com/project-slug: bonett-labs/test-22
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/test-22
+  links:
+    - url: https://github.com/bonett-labs/test-22
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/tribe-blockchain
+  system: system:default/auth-platform
