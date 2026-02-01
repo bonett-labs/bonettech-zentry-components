@@ -1,0 +1,6 @@
+component:
+  name: teste-5
+  owner: group:default/alliance-research-development
+  domain: domain:default/data-intelligence
+  system: system:default/blockchain-platform
+  description: Realizando manipulação de arquivos .yml

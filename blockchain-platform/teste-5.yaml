@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste-5
+  description: Realizando manipulação de arquivos .yml
+spec:
+  type: website
+  lifecycle: production
+  owner: group:default/alliance-research-development
+  system: system:default/blockchain-platform
+  domain: domain:default/data-intelligence
