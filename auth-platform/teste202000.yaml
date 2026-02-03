@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste202000
+  description: 2020d0d0dq
+  annotations:
+    github.com/project-slug: bonett-labs/teste202000
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/teste202000
+  links:
+    - url: https://github.com/bonett-labs/teste202000
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/tribe-devops-sre
+  system: system:default/auth-platform
