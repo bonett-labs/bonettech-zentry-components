@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 12345
+  description: 12345
+  annotations:
+    github.com/project-slug: bonett-labs/12345
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/12345
+  links:
+    - url: https://github.com/bonett-labs/12345
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/tribe-cloud-platform
+  system: system:default/ml-platform
