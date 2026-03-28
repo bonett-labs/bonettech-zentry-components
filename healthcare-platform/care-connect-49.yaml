@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: care-connect-49
+  description: Servicos digitais para saude
+  annotations:
+    github.com/project-slug: bonett-labs/care-connect-49
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/digital-health
+  system: system:default/healthcare-platform

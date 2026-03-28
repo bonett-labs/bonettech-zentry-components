@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: stream-central-34
+  description: Experiencias de streaming e conteudo
+  annotations:
+    github.com/project-slug: bonett-labs/stream-central-34
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/media-engineering
+  system: system:default/media-streaming-platform

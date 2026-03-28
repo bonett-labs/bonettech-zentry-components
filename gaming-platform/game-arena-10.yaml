@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: game-arena-10
+  description: Ecossistema de jogos online
+  annotations:
+    github.com/project-slug: bonett-labs/game-arena-10
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/game-studio
+  system: system:default/gaming-platform

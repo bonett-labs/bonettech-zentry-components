@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: learning-studio-16
+  description: Plataforma educacional interativa
+  annotations:
+    github.com/project-slug: bonett-labs/learning-studio-16
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/edtech-labs
+  system: system:default/education-platform

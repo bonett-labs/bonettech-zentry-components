@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-portal-31
+  description: Experiencias digitais para clientes
+  annotations:
+    github.com/project-slug: bonett-labs/customer-portal-31
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/customer-experience
+  system: system:default/customer-experience-platform

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: travel-compass-29
+  description: Produtos digitais para viagens
+  annotations:
+    github.com/project-slug: bonett-labs/travel-compass-29
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/travel-ops
+  system: system:default/travel-platform

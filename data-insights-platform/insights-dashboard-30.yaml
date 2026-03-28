@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insights-dashboard-30
+  description: Produtos de dados e analytics
+  annotations:
+    github.com/project-slug: bonett-labs/insights-dashboard-30
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/data-engineering
+  system: system:default/data-insights-platform
