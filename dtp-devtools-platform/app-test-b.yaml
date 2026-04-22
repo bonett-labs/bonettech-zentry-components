@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-test-b
+  description: teste
+  annotations:
+    github.com/project-slug: bonett-labs/app-test-b
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/app-test-b
+  links:
+    - url: https://github.com/bonett-labs/app-test-b
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/platform-team
+  system: system:default/dtp-devtools-platform
