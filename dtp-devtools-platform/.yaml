@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: 
+  annotations:
+    backstage.io/source-location: url:/tree/
+    zentry.io/resource-type: s3
+    zentry.io/resource-name: 
+    zentry.io/resource-file: 
+    zentry.io/environment: 
+spec:
+  type: infrastructure
+  lifecycle: 
+  owner: group:default/tribe-devtools
+  system: 
