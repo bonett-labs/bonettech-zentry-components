@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: "dtp-devtools-platform-test-s3-a-dev"
+  name: "dtp-devtools-platform--hml"
   annotations:
-    backstage.io/source-location: url:https://github.com/bonett-labs/dtp-test-s3-a-s3/tree/develop
+    backstage.io/source-location: url:https://github.com/bonett-labs/dtp-test-s3-a-s3/tree/release
     zentry.io/resource-type: s3
     zentry.io/resource-name: "dtp-test-s3-a"
     zentry.io/resource-file: "dtp-test-s3-a.tf"
-    zentry.io/environment: "dev"
+    zentry.io/environment: "hml"
 spec:
   type: infrastructure
-  lifecycle: "dev"
+  lifecycle: "hml"
   owner: group:default/tribe-devtools
   system: "system:default/dtp-devtools-platform"
