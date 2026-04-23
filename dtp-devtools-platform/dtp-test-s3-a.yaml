@@ -9,7 +9,7 @@ metadata:
     zentry.io/resource-file: "dtp-test-s3-a.tf"
     zentry.io/environment: "dev"
 spec:
-  type: s3
+  type: infrastructure
   lifecycle: "dev"
   owner: group:default/tribe-devtools
   system: "system:default/dtp-devtools-platform"
