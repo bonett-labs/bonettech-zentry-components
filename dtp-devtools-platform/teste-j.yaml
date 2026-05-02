@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste-j
+  description: teste j
+  annotations:
+    github.com/project-slug: bonett-labs/teste-j
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/teste-j
+  links:
+    - url: https://github.com/bonett-labs/teste-j
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/alliance-product-engineering
+  system: system:default/dtp-devtools-platform
