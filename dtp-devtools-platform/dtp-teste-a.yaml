@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dtp-teste-a
-  description: 
+  description: test a
   annotations:
     github.com/project-slug: bonett-labs/teste-a
     backstage.io/techdocs-ref: dir:.
