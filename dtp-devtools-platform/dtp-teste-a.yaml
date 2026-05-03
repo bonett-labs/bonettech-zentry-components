@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dtp-teste-a
+  description: 
+  annotations:
+    github.com/project-slug: bonett-labs/teste-a
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/bonett-labs/teste-a
+  links:
+    - url: https://github.com/bonett-labs/teste-a
+      title: GitHub Repository
+      icon: github
+  tags:
+    - react
+    - typescript
+    - frontend
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/vp-technology
+  system: system:default/dtp-devtools-platform
